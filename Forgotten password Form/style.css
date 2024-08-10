@@ -5,7 +5,6 @@
     font-family: sans-serif;
 }
 
-
 body{
     display: flex;
     height: 100vh;
@@ -15,7 +14,6 @@ body{
     /* background: url(HD-wallpaper-alone-black-light-dark.jpg);
     background-repeat: no-repeat; */
 }
-
 
 .container{
     width: 100%;
@@ -28,7 +26,6 @@ body{
     -webkit-box-shadow: 1px 5px 50px 12px rgba(0,0,0,0.56);
     -moz-box-shadow: 1px 5px 50px 12px rgba(0,0,0,0.56);
 }
-
 
 .form-title{
     font-size: 26px;
@@ -49,11 +46,9 @@ body{
     padding: 20px 0;
 }
 
-
 .user-input-box:nth-child(2n){
     justify-content: flex-end;
 }
-
 
 .user-input-box{
     display: flex;
@@ -62,7 +57,6 @@ body{
     padding-bottom: 15px;
     border-radius: 20%;
 }
-
 
 .user-input-box label{
     width: 95%;
@@ -73,7 +67,6 @@ body{
     margin: 5px 0;
     font-style: italic;
 }
-
 
 .user-input-box input{
     height: 40px;
@@ -89,11 +82,12 @@ body{
 }
 
 
+
+
 .form-submit-btn{
    
     margin-top: 20px;
 }
-
 
 .form-submit-btn input{
     display: block;
@@ -111,7 +105,6 @@ body{
     transition: 0.4s;
     cursor: pointer;
 }
-
 
 .form-submit-btn input:hover{
     background: rgba(209, 145, 7, 0.7);

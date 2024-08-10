@@ -8,12 +8,10 @@
   box-sizing: border-box;
 }
 
-
 body,
 input {
   font-family: "Poppins", sans-serif;
 }
-
 
 main {
   width: 100%;
@@ -25,7 +23,6 @@ main {
   align-items: center;
   justify-content: center;
 }
-
 
 .box {
   position: relative;
@@ -39,7 +36,6 @@ main {
   -moz-box-shadow: -3px 4px 164px 24px rgba(0,0,0,0.75);
 }
 
-
 .inner-box {
   position: absolute;
   width: calc(100% - 4.1rem);
@@ -49,7 +45,6 @@ main {
   transform: translate(-50%, -50%);
   
 }
-
 
 .forms-wrap {
   position: absolute;
@@ -62,7 +57,6 @@ main {
   grid-template-rows: 1fr;
   transition: 0.8s ease-in-out;
 }
-
 
 form {
   max-width: 260px;
@@ -77,27 +71,21 @@ form {
   transition: opacity 0.02s 0.4s;
 }
 
-
 form.sign-up-form {
   opacity: 0;
   pointer-events: none;
 }
-
 
 .logo {
   display: flex;
   align-items: center;
 }
 
-
-
 .logo img {
   width: 250px;
   margin-right: 0.3rem;
   margin-right: 50px;
 }
-
-
 
 .heading h2{
   font-size: 2.1rem;
@@ -107,16 +95,12 @@ form.sign-up-form {
   overflow: hidden;
 }
 
-
-
 .heading h6 {
   color: rgb(10, 10, 10);
   font-weight: 600;
   font-size: 0.80rem;
   display: inline;
 }
-
-
 
 .toggle {
   color: chocolate;
@@ -126,21 +110,15 @@ form.sign-up-form {
   transition: 0.3s;
 }
 
-
-
 .toggle:hover {
   color: #8371fd;
 }
-
-
 
 .input-wrap {
   position: relative;
   height: 37px;
   margin-bottom: 2rem;
 }
-
-
 
 .input-field {
   position: absolute;
@@ -157,8 +135,6 @@ form.sign-up-form {
   font-weight: 600;
 }
 
-
-
 label {
   position: absolute;
   left: 0;
@@ -170,21 +146,16 @@ label {
   transition: 0.4s;
 }
 
-
-
 .bx{
-      margin: 10px 0px 0px 240px;
-      color: rgb(25, 10, 228);
-               
+       margin: 10px 0px 0px 240px;
+        color: rgb(25, 10, 228);
+        
+        
 }
-
-
 
 .input-field.active {
   border-bottom-color: #3006f0;
 }
-
-
 
 .input-field.active + label {
   font-size: 0.75rem;
@@ -192,8 +163,6 @@ label {
   color: maroon;
   font-weight: 650;
 }
-
-
 
 .sign-btn {
   display: inline-block;
@@ -209,13 +178,9 @@ label {
   transition: 0.3s;
 }
 
-
-
 .sign-btn:hover {
   background-color: #8371fd;
 }
-
-
 
 .text {
   color:  #050505;
@@ -224,47 +189,33 @@ label {
   
 }
 
-
-
 .text a {
   color: chocolate;
   font-weight: bold;
   transition: 0.3s;
 }
 
-
-
 .text a:hover {
   color: #8371fd;
 }
-
-
 
 main.sign-up-mode form.sign-in-form {
   opacity: 0;
   pointer-events: none;
 }
 
-
-
 main.sign-up-mode form.sign-up-form {
   opacity: 1;
   pointer-events: all;
 }
 
-
-
 main.sign-up-mode .forms-wrap {
   left: 55%;
 }
 
-
-
 main.sign-up-mode .carousel {
   left: 0%;
 }
-
-
 
 .carousel {
   position: absolute;
@@ -285,8 +236,6 @@ main.sign-up-mode .carousel {
 }
 
 
-
-
 @media (max-width: 850px) {
   .box {
     height: auto;
@@ -302,13 +251,11 @@ main.sign-up-mode .carousel {
     padding: 2rem;
   }
 
-
   .forms-wrap {
     position: revert;
     width: 100%;
     height: auto;
   }
-
 
   form {
     max-width: revert;
@@ -316,26 +263,21 @@ main.sign-up-mode .carousel {
     transition: transform 0.8s ease-in-out, opacity 0.45s linear;
   }
 
-
   .heading {
     margin: 2rem 0;
   }
-
 
   form.sign-up-form {
     transform: translateX(100%);
   }
 
-
   main.sign-up-mode form.sign-in-form {
     transform: translateX(-100%);
   }
 
-
   main.sign-up-mode form.sign-up-form {
     transform: translateX(0%);
   }
-
 
   .carousel {
     position: revert;
@@ -345,45 +287,36 @@ main.sign-up-mode .carousel {
     display: flex;
   }
 
-
-
   .images-wrapper {
     display: none;
   }
 }
-
 
 @media (max-width: 530px) {
   main {
     padding: 1rem;
   }
 
-
   .box {
     border-radius: 2rem;
   }
 
-
   .inner-box {
     padding: 1rem;
   }
-
 
   .carousel {
     padding: 1.8rem 1rem;
     border-radius: 1.6rem;
   }
 
-
   .text-wrap {
     margin-bottom: 1rem;
   }
 
-
   .text-group h2 {
     font-size: 1.2rem;
   }
-
 
   form {
     padding: 1rem 2rem 1.5rem;
@@ -414,14 +347,15 @@ main.sign-up-mode .carousel {
 } 
 
 
-
  @media (min-width: 4500px) and (max-width: 874px)
 {
   .bx{
     margin: 10px 0px 0px 300px;
-     color: rgb(25, 10, 228); 
+     color: rgb(25, 10, 228);
+     
+     
 }
 } 
 
-
+/* End of Css */
 

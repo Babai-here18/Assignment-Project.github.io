@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Forgotten password Form Page</title>
+    <meta name="viewport" content="width=device-width,
+      initial-scale=1.0"/>
+      <link rel="icon" href="bblogo.jpg">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="form-title">Forgotten your password ?</h1>
+      <form action="#">
+        <div class="main-user-info">
+          <div class="user-input-box">
+            <label for="username">Username</label>
+            <input type="text"
+                    id="username"
+                    name="username"
+                    minlength="4"
+                    autocomplete="off"
+                    required
+                    placeholder="Enter Username"/>
+          </div>
+          <div class="user-input-box">
+            <label for="email">Email</label>
+            <input type="email"
+                    id="email"
+                    name="email"
+                    autocomplete="off"
+                    required
+                    placeholder="Enter Email"/>
+          </div>
+         
+          <div class="user-input-box">
+            <label for="password">NewPassword</label>
+            <input type="password"
+                    id="password"
+                    name="password"
+                    minlength="4"
+                    autocomplete="off"
+                    required
+                    placeholder="Enter NewPassword"/>
+          </div>
+          <div class="user-input-box">
+            <label for="confirmPassword">Confirm Password</label>
+            <input type="password"
+                    id="confirmPassword"
+                    name="confirmPassword"
+                    minlength="4"
+                    autocomplete="off"
+                    required
+                    placeholder="Confirm Password"/>
+          </div>
+        </div>
+        <div class="form-submit-btn">
+          <input type="submit" value="Ok">
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
